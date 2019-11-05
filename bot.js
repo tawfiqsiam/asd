@@ -10,7 +10,7 @@ client.on('ready', () => {
 
 
 client.on("guildMemberAdd", member => {
-let welcomer = member.guild.channels.find("name","night");
+let welcomer = member.guild.channels.find("name","chat");
       if(!welcomer) return;
       if(welcomer) {
          moment.locale('ar-ly');
